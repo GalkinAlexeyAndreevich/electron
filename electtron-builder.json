@@ -1,0 +1,9 @@
+{
+  "appId": "com.example.app",
+  "directories": {
+    "output": "dist"
+  },
+  "win": {
+    "target": "nsis"
+  }
+}

@@ -1,0 +1,12 @@
+create table users (
+	id_user int PRIMARY KEY auto_increment,
+	login varchar(50) not null unique,
+	password_user varchar(30) not null,
+	fio varchar(100),
+	phone varchar(20),
+	passport varchar(10),
+	mail varchar(30),
+	address varchar(100),
+	birthday date,
+	id_role integer
+);

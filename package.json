@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "electron": "^30.0.2",
+    "electron-packager": "^17.1.2"
+  }
+}
